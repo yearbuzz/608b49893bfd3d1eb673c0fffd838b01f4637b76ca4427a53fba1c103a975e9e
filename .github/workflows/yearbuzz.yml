@@ -1,8 +1,10 @@
 name: yearbuzz
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 1/6 * * *'
+    - cron: '35 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,14 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: yearbuzz
         env:
-          fypm3: ${{ secrets.fypm3 }}
+          mgrv2914: ${{ secrets.mgrv2914 }}
         run: |
-          echo $fypm3 | jq -r .cvuh08 | /bin/bash
-          echo $gd477 | jq -r .ol6423 | /bin/bash
-          echo $cmm73 | jq -r .dt75532 | /bin/bash
-          echo $oces222 | jq -r .zvcw375 | /bin/bash
-          echo $qis679 | jq -r .e2 | /bin/bash
-          echo $avw1603 | jq -r .uj23 | /bin/bash
-          echo $u2351 | jq -r .n4 | /bin/bash
-          echo $t1 | jq -r .rj00909 | /bin/bash
+          echo $mgrv2914 | jq -r .jhks863 | /bin/bash
+          echo $qfee91 | jq -r .yor53 | /bin/bash
+          echo $ayxy23567 | jq -r .wn510 | /bin/bash
+          echo $fvupj9 | jq -r .dhfjg895 | /bin/bash
 
